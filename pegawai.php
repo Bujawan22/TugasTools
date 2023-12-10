@@ -30,6 +30,7 @@
       margin: auto;
     }
     </style>
+    
 </head>
 
 <body class="light">
