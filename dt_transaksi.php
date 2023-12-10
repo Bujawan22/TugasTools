@@ -11,7 +11,7 @@
         body {
             background-image: url('img/background5.jpg');
             background-size: cover;
-        }
+      }
     </style>
 </head>
 
