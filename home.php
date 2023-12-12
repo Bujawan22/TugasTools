@@ -7,10 +7,16 @@
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Penyewaan</title>
     <style>
-              body {
-            background-image: url('img/background5.jpg');
+          html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+          body {
+            background-image: url('img/backgroundtabel.jpg');
             background-size: cover;
-            backdrop-filter: blur(5px); 
+            backdrop-filter: blur(5px);
+             
         }
         .card {
             transition: transform 0.2s;
@@ -75,6 +81,7 @@
       
         <div class="container mt-5 mb-5">
             <div class="row text-center g-4" style="margin-top: 110px;">
+
                 <!-- Card 1 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-warning text-light rounded">
@@ -89,7 +96,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-dark text-light rounded">
                         <div class="card-body">
-                            <img src="img/pegawai.png" width="50px" alt="Image">
+                            <img src="img/pegawai.png" width="50px" height="30px" alt="Image">
                             <h4 class="card-title mb-2">Pegawai</h4>
                             <a href="pegawai.php" class="no-decoration btn btn-light add-button">ADD</a>
                         </div>
@@ -120,7 +127,7 @@
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-warning text-light rounded">
                         <div class="card-body">
-                            <img src="img/detail.png" width="50px" alt="Image">
+                            <img src="img/detail.png" width="50px" height="30px" alt="Image">
                             <h4 class="card-title mb-2">Detail transaksi</h4>
                             <a href="dt_transaksi.php" class="no-decoration btn btn-light add-button">ADD</a>
                         </div>
