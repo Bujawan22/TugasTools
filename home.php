@@ -72,10 +72,9 @@
       <section class="jumbotron text-center mt-5">
         <img src="img/pp.png" alt="" width="100px" class=" rounded-circle">
         <h3 class="mt-3 text-white" font-weight= "bold" font-family ="Segoe UI"  >Selamat Datang di Sewa DVD</h3>
-      </section>
-    <section class="p-5 section-shadow">
-        <div class="container mt-5">
-            <div class="row text-center g-4">
+      
+        <div class="container mt-5 mb-5">
+            <div class="row text-center g-4" style="margin-top: 110px;">
                 <!-- Card 1 -->
                 <div class="col-md-6 col-lg-4">
                     <div class="card bg-warning text-light rounded">
